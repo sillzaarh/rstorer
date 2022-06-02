@@ -114,7 +114,7 @@ def listArg(list):
 
     # Take urls one by one from the list and make the request
     for url in urls:
-        url = url.replace("\n", "")
+        url = url.strip()
         try:
             t = threading.Thread(target=urlArg, kwargs={'url': url})
             t.start()
