@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 
-import os
-import random
-import requests
-import threading
-import argparse
-import urllib3
-import hashlib
+import os, random, requests, threading, argparse, urllib3, hashlib
 urllib3.disable_warnings()
 
 # Required arguments are set
