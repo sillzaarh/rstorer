@@ -13,12 +13,12 @@ args = parser.parse_args()
 
 # This function request to the particualr URL and returns the response
 def req(url, redirect=False):
-    r = requests.get(url, allow_redirects=redirect)
+    r = requests.get(url, allow_redirects=redirect, timeout=3)
     return r
 
 # This function request to particular URl through proxy server and returns the response
 def proxy_req(url, proxy, redirect=False):
-    r = requests.get(url, allow_redirects=redirect, proxies=proxy, verify=False)
+    r = requests.get(url, allow_redirects=redirect, proxies=proxy, verify=False, timeout=3)
     return r
 
 # This function is called when -u or --url argument is passed
