@@ -15,6 +15,4 @@ options:
   -l , --list     enter the path to file of list of URLs
   -p , --proxy    enter the proxy URL
   -o , --output   enter the folder name to save the output
-</code></pre><br/>
-
-> *Don't hate the hacker, hate the code*
+</code></pre>
