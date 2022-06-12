@@ -15,3 +15,20 @@ options:
   -p , --proxy    enter the proxy URL
   -o , --output   enter the folder name to save the output
 </code></pre>
+
+# Installation
+Clone the repository
+<pre><code>git clone https://github.com/mmbverse/rstorer.git
+cd rstorer
+</pre></code>
+Python
+<pre><code>pip install -r requirements.txt
+python rstorer.py
+</pre></code>
+Bash
+<pre><code>pip3 install -r requirements.txt
+chmod +x rstorer.py
+
+# copy to /usr/local/bin to access the tool from anywhere
+sudo cp rstorer.py /usr/local/bin/rstorer
+</pre></code>
