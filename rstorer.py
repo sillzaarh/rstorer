@@ -4,7 +4,7 @@ import os, random, requests, threading, argparse, urllib3, hashlib
 urllib3.disable_warnings()
 
 # Required arguments are set
-parser = argparse.ArgumentParser(description="Response Storer Tool")
+parser = argparse.ArgumentParser(description="Response Storer")
 parser.add_argument("-u", "--url", type=str, metavar="",  help="enter the URL (URL should be provided in proper format)")
 parser.add_argument("-l", "--list", type=str, metavar="", help="enter the path to file of list of URLs")
 parser.add_argument("-p", "--proxy", type=str, metavar="", help="enter the proxy URL")
