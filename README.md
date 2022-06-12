@@ -2,9 +2,11 @@
 This is a simple python tool which request a bunch of URLs provided and stores the response in different files and folders. It requests new URL without waiting for the resposne of the last request and stores the response in a folder. But this can be hard on system resources.
 
 # Usage
+
+<img src="/uploads/rstorer.gif" alt="rstorer demo" width="80%"/><br><br>
 <pre><code>
-<img src="https://github.com/mmbverse/rstorer/blob/main/uploads/rstorer%20demo.gif?raw=true" alt="rstorer demo" width="80%"/><br><br>
 usage: rstorer.py [-h] [-u] [-l] [-p] [-o]
+
 
 Response Storer
 
