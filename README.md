@@ -3,7 +3,7 @@ This is a simple python tool which request a bunch of URLs provided and stores t
 
 # Usage
 
-<img src="/uploads/rstorer.gif" alt="rstorer demo" width="80%"/><br><br>
+<img src="/uploads/rstorer.gif" alt="rstorer demo" width="80%"/>
 <pre><code>
 usage: rstorer.py [-h] [-u] [-l] [-p] [-o]
 
