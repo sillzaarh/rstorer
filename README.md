@@ -5,9 +5,10 @@ This is a simple python tool which request new URl without waiting for the respo
 
 # Usage
 <pre><code>
+<img src="https://github.com/mmbverse/rstorer/blob/main/uploads/rstorer%20demo.gif?raw=true" alt="rstorer demo" width="80%"/><br><br>
 usage: rstorer.py [-h] [-u] [-l] [-p] [-o]
 
-Response Storer Tool
+Response Storer
 
 options:
   -h, --help      show this help message and exit
