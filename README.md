@@ -1,7 +1,5 @@
 # Response Storer
-Request a bunch of URLs provided and stores the response in different files and folders.
-
-This is a simple python tool which request new URl without waiting for the resposne of the last request and stores the response in a folder. But this can be hard on system resources.
+This is a simple python tool which request a bunch of URLs provided and stores the response in different files and folders. It requests new URL without waiting for the resposne of the last request and stores the response in a folder. But this can be hard on system resources.
 
 # Usage
 <pre><code>
